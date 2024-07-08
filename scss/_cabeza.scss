@@ -1,0 +1,13 @@
+/** Header **/
+.nav-item{
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color: #f8f9fa;
+    transition: all .3s ease-in-out;
+    transform: scale(1.2); 
+}
+

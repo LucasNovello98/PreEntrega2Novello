@@ -1,0 +1,13 @@
+/** PRODUCTOS - PAGE **/
+.imagen-producto img{
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.40s;
+ }
+
+ .imagen-producto img:hover{
+    transform: scale(1.1);
+    transition: all 0.40s;
+ }

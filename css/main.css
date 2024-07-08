@@ -1,0 +1,101 @@
+/** Reset **/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/** Header **/
+.nav-item {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: #f8f9fa;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+/** Main **/
+.lema {
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: "Kanit", sans-serif;
+  padding-bottom: 80px;
+}
+
+main div {
+  font-family: "nunito", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+
+.tarjetas {
+  padding-bottom: 20px;
+}
+
+/** Aside **/
+.texto-descriptivo {
+  padding: 20px;
+  font-size: 20px;
+}
+
+/** PRODUCTOS - PAGE **/
+.imagen-producto img {
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.imagen-producto img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+/** Footer **/
+.logo-pie img {
+  height: 80px;
+  width: 80px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.pie-pagina {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  padding-top: 10px;
+  margin-top: 200px;
+}
+
+i {
+  font-size: 35px;
+  color: rgb(211, 13, 13);
+  text-align: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+i:hover {
+  color: #f8f9fa;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.redes {
+  padding: 10px;
+  display: inline-block;
+}
+
+.nombre-pie {
+  font-size: 20px;
+  color: #f8f9fa;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
